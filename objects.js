@@ -1,10 +1,13 @@
-var playlist = new Object({ Joji : 'Slow Dancing in the Dark'});
+var playlist = new Object({ 
+  Slowdive : 'Alison',
+  My BLoody Valentine : 'Sometimes'
+});
 
 function updatePlaylist(playlist, artistName, songTitle){
-
+  playlist. 
 }
 
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.Slowdive
+  delete playlist.Slowdive;
   return playlist
 }
